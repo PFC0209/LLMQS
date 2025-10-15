@@ -1,0 +1,144 @@
+main form {
+    background-color: #e6c57de1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    width: auto;
+    max-width: 80%;
+    box-shadow: 0 4px 8px black;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+main form fieldset {
+    border: none;
+    padding: 0;
+}
+
+main form legend {
+    color: #234d96;
+    margin-bottom: 1rem;
+    
+}
+
+.form-column1 {
+    width: 37%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 1rem;
+}
+
+.form-column2 {
+    width: 37%; 
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.form-column:last-child {
+    margin-right: 0;
+}
+
+main form input[type="text"],
+main form input[type="password"],
+main form input[type="email"],
+main form select,
+main form input[type="date"] {
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+main form textarea {
+    width: 95%;
+    padding: 0.5rem;
+    margin: 0.5rem 2.5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+main form .switch {
+    display: inline-block;
+    margin: 1rem 0;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+main form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    color: #10316b;
+}
+
+main form input[type="submit"],
+main form input[type="reset"] {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 0rem; 
+    margin-left:10rem;
+}
+
+main form input[type="submit"]{
+    background-color: #10316b;
+    color: #fad993;
+    margin-left: 1em;
+}
+
+main form input[type="reset"] {
+    background-color: #10316b;
+    color: #fad993;
+    margin-left: 10em;
+}
+
+main form input[type="submit"]:hover{
+    background-color: #08244b;
+    color: #7ed13a;
+}
+
+main form input[type="reset"]:hover {
+    background-color: #08244b;
+    color: #f84c1d;
+}
+
+
+#privacidad{
+    text-align: center;
+    color: #08244b;
+}
+
+#privacidad a{
+    color: #547db6;
+    text-decoration: none;
+}
+
+#privacidad a:hover {
+    color: #134996;
+}
+
+form div{
+    text-decoration: none;
+    text-align: center;
+    color: #08244b;
+}
+
+form div a{
+    color: #325c96;
+    text-decoration: none;
+}
+
+form div a:hover {
+    color: #0a2851;
+}

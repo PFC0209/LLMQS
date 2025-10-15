@@ -1,0 +1,59 @@
+
+
+main form {
+    background-color: #f7ba352f;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    width: auto; 
+    max-width: 50%;
+    box-shadow: 0 4px 8px black; 
+    text-align: center; 
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+main form fieldset {
+    border: none;
+    padding: 0;
+}
+
+main form legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #10316b;
+    margin-bottom: 1rem;
+}
+
+main form input[type="text"],
+main form input[type="password"]{
+    width: 80%;
+    max-width: 200px;
+    padding: 0.4rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem; 
+}
+
+main form input[type="submit"] {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #10316b;
+    color: #fad993b6;
+    border: none;
+    border-radius: 4px;
+}
+
+main form input[type="submit"]:hover {
+    background-color: #08244b;
+}
+
+main form a{
+    text-decoration: none;
+    color: #08244b;
+}
+
+main form a:hover{
+    color: #134996;
+}

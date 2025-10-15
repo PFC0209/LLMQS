@@ -1,0 +1,170 @@
+/* Botones */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.letras{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+/*Colores User -botones*/
+.user button{
+  border: 2px solid var(--usuario-secondary);
+  background-color: var(--usuario-primary);
+  color: var(--usuario-secondary);
+}
+.user button:hover {
+  background-color: var(--usuario-secondary);
+  color: var(--usuario-primary);
+}
+
+/*Colores Admin -botones*/
+.admin button{
+  border: 2px solid var(--admin-secondary);
+  background-color: var(--admin-primary);
+  color: var(--admin-secondary);
+}
+.admin button:hover {
+  background-color: var(--admin-secondary);
+  color: var(--admin-primary);
+}
+
+
+/* Listas */
+ul,
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.Llistausuaris {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+  background-color: var(--usuario-bg-light, #f3f3f3);
+  padding: 0.5rem;
+  max-width: 100%;  
+}
+
+.Llistausuaris > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: contents; /* Permite que los <li> se comporten como elementos de la cuadrícula */
+}
+
+.Llistausuaris li {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px var(--usuario-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Asignamos posiciones específicas */
+.Llistausuaris li:nth-child(1) { grid-column-start: 1; grid-row-start: 1; }
+.Llistausuaris li:nth-child(2) { grid-column-start: 2; grid-row-start: 1; }
+.Llistausuaris li:nth-child(3) { grid-column-start: 3; grid-row-start: 1; }
+.Llistausuaris li:nth-child(4) { grid-column-start: 1; grid-row-start: 2;}
+.Llistausuaris li:nth-child(5) { grid-column-start: 2; grid-row-start: 2; }
+.Llistausuaris li:nth-child(6) { grid-column-start: 3; grid-row-start: 2; }
+.Llistausuaris li:nth-child(7) { grid-column-start: 1; grid-row-start: 3; }
+.Llistausuaris li:nth-child(8) { grid-column-start: 2; grid-row-start: 3; }
+.Llistausuaris li:nth-child(9) { grid-column-start: 3; grid-row-start: 3;}
+
+/* Estilos para la contraseña */
+.Llistausuaris li ul {
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.Llistausuaris li ul li {
+  font-size: 0.9rem;
+  color: gray;
+}
+/*Multimedia*/
+#audio {
+  position: fixed;
+  bottom: 50px;
+  width: 150px;
+  z-index: 10;
+}
+
+iframe {
+  margin: 5%;
+  max-width: 60%;
+  height: 50%;
+  padding: 0.5em;
+  margin-left: 1rem;
+}
+.mapa{
+  display: flex;
+  justify-content: center;
+  background-color: var(--usuario-bg-light);
+  box-shadow: 0.1rem 0.1rem var(--usuario-primary);
+  border-radius: 1rem;
+}
+
+@media (min-width: 720px) {
+
+  /*Multimedia*/
+  #audio {
+    position: fixed;
+    bottom: 20px;
+    width: 150px;
+    z-index: 10;
+  }
+  .letras{
+    grid-template-columns: repeat(8,1fr);
+  }
+
+  iframe {
+    margin: 5%;
+    max-width: 70%;
+    height: 30%;
+    padding: 0.5em;
+    margin-left: 3rem;
+  }
+  .mapa{
+    margin: 8rem 7rem 8rem 10rem;
+    height: 50;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  /*Multimedia*/
+  #audio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    z-index: 10;
+  }
+  .letras{
+    grid-template-columns: repeat(12,1fr);
+  }
+
+  iframe {
+    display: inline-block;
+    margin: 5%;
+    max-width: 90%;
+    height: 30%;
+    padding: 0.5em;
+    margin-left: 3rem;
+  }
+  .mapa{
+    margin-left: 12rem;
+  }
+
+}

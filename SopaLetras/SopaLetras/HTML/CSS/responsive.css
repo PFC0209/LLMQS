@@ -1,0 +1,122 @@
+/* Tablet */
+@media (min-width: 720px) {
+  header{
+    position: fixed;
+    top: 0;
+  }
+
+  header .menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  header .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menu_nav {
+    display: flex;
+    flex: 1;
+  }
+
+  header #logout {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sidebar-abrir-boton,
+  .sidebar-cerrar-boton {
+    display: none;
+  }
+
+  .sidebar-nav {
+    position: static;
+    width: auto;
+    height: auto;
+    display: flex;
+    right: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sidebar-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+  }
+
+  .sidebar-nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: -5px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    list-style: none;
+    min-width: 150px;
+  }
+
+
+  #aside-menu {
+    position: fixed;
+    padding: 0.5rem;
+    width: 6rem;
+    top: 25%;
+    right: 3rem;
+    height: 5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+
+  #aside-menu:hover {
+    width: 8rem;
+    height: auto;
+  }
+
+  #aside-menu img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  #aside-menu h5 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  #aside-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  footer{
+    position: static;
+  }
+  .footer-iniciouser{
+    position: fixed;
+  }
+
+}
+
+/*Ordenador*/
+@media (min-width: 1024px) {
+
+  header nav ul {
+    gap: 2em;
+  }
+
+  main {
+    padding: 4em;
+    max-width: auto;
+  }
+
+}

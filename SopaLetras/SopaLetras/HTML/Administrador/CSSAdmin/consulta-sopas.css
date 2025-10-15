@@ -1,0 +1,122 @@
+main h2, main h3, main h4 {
+    background-color: #cca858;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #08244b;
+}
+
+main form {
+    background-color: #fdf0d4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: auto;
+    max-width: 90%;
+    box-shadow: 0 4px 8px black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main form fieldset {
+    border: none;
+    padding: 0;
+}
+
+main form legend {
+    color: #9f7b2e;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+table {
+    width: 55%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #cca858;
+    border-radius: 10px;
+    text-align: center;
+}
+
+th, td {
+    padding: 0.5rem 0.5rem;
+    margin: 0.2em 0.3em;
+    text-align: center;
+    border: 1px solid #a7abda;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: "Roboto Slab", serif;
+}
+
+td:hover {
+    background-color: #a7abdab5;
+    color: white;
+}
+
+.listado-palabras {
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.listado-palabras ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listado-palabras ul li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #10316b;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px #f2c572bd;
+}
+
+.listado-palabras ul li:hover {
+    background-color: #a7abdab5;
+    color: white;
+    text-shadow: 2px 2px 4px #08244b;
+}
+
+
+button[type="submit"]{
+    background-color: #10316b;
+    color: #f1e28f;
+    padding: 0.7rem 0.7rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem; 
+    margin-left:2rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #08244b;
+    color: #d6cc42;
+}
+
+div.niveles {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    user-select: none;
+}

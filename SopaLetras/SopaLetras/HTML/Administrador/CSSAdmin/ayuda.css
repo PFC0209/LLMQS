@@ -1,0 +1,18 @@
+@font-face {
+    font-family: eb_garamond_boldIt;
+    src: url(../../Multimedia/static/EBGaramond-BoldItalic.ttf);
+}
+
+.texto-ayuda{
+    font-family: eb_garamond_boldIt;
+    background: #eeeae2;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    text-align: justify;
+    margin: 2rem 8rem 2rem 8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #cca858;
+    display: inline-block;
+}

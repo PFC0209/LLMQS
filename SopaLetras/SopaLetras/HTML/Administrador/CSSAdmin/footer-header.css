@@ -1,0 +1,156 @@
+@font-face {
+    font-family: eb_garamond_bold;
+    src: url(../../Multimedia/static/EBGaramond-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #242c3c;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    font-family: eb_garamond_bold;
+}
+
+header {
+    display: inline-block;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12rem;
+}
+
+#logout {
+    position: absolute;
+    right: 1rem;
+    top: 30%;
+}
+
+#logout button {
+    background-color: #242c3c;
+    color: #cca858;
+    border: 2px solid #cca858;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#logout button a {
+    color: #cca858;
+    text-decoration: none;
+    display: block;
+}
+
+#logout button:hover {
+    background-color: #a37d2a;
+    color: #1b2b49;
+}
+
+
+nav {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    color: #cca858;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+nav ul li:hover {
+    background-color: #1c273d;
+    z-index: 3;
+}
+
+nav ul li a {
+    color: #cca858;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #242c3c;
+    list-style: none;
+    padding: 0.5rem 0;
+    min-width: 12rem;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a:hover {
+    display: block;
+    color: #d29c28;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer {
+    background-color: #242c3c;
+    color: #cca858;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    position: relative;
+}
+footer a {
+    color: #cca858;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#audio {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    width: 150px;
+    z-index: 10;
+}
+
+video, iframe {
+    display: inline-block;
+    margin: 5%;
+    max-width: 30%;
+    height: 30%;
+    padding: 0.5em;
+    margin-left: 9rem;
+}

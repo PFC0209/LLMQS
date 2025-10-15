@@ -1,0 +1,6 @@
+.juego-sopa{
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+gap: 5px;
+width: fit-content;
+}

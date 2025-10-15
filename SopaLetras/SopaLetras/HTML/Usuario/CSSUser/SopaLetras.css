@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+main h2, main h3, main h4 {
+    background-color: #547db6;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #08244b;
+}
+
+.info-tiempo-resultado {
+    text-align: center;
+    color: #10316b;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    width: auto; 
+    max-width: 30%;
+    margin-top: 3rem;
+    margin-left: 37%;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.info-tiempo-resultado label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.info-tiempo-resultado input {
+    width: auto; 
+    max-width: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+}
+
+table {
+    width: 55%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #cca858;
+    border-radius: 10px;
+    text-align: center;
+}
+
+th, td {
+    padding: 0.5rem 0.5rem;
+    margin: 0.2em 0.3em;
+    text-align: center;
+    border: 1px solid #a7abda;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: "Roboto Slab", serif;
+}
+
+table td:hover {
+    background-color: #f4c56e;
+    color: white;
+}
+
+.listado-palabras {
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6.9%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.listado-palabras ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listado-palabras ul li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #10316b;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px #f2c572bd;
+}
+
+.listado-palabras ul li:hover {
+    background-color: #f4c56e;
+    color: white;
+    text-shadow: 2px 2px 4px #08244b;
+}
+
+button[type="submit"] {
+    padding: 0.7rem 0.7rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-left:1rem;
+    background-color: #10316b;
+    color: #fad993;
+}
+
+button#jugar[type="submit"]:hover {
+    background-color: #08244b;
+    color: #60cf2d;
+}
+
+button#fin[type="submit"]:hover {
+    background-color: #08244b;
+    color: #f42222;
+}
+
