@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pau Febrer Castro">
+    <meta name="description" content="Informació de contacte">
+    <title>Exercici 5</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Informació de contacte</legend>
+
+        <label for="telefon">Telèfon:</label>
+        <input type="tel" id="telefon" name="telefon" placeholder="+34 612 345 678" pattern="[0-9+\s()-]{7,}" required>
+        <br>
+
+        <label for="web">Adreça web personal:</label>
+        <input type="url" id="web" name="web" placeholder="https://exemple.com" required>
+        <br>
+
+        <span>Xarxa social preferida:</span>
+        <br>
+
+        <input type="radio" id="facebook" name="social" value="facebook" checked>
+        <label for="facebook">Facebook</label>
+
+        <input type="radio" id="instagram" name="social" value="instagram">
+        <label for="instagram">Instagram</label>
+
+        <input type="radio" id="tiktok" name="social" value="tiktok">
+        <label for="tiktok">TikTok</label>
+
+        <input type="radio" id="altres" name="social" value="altres">
+        <label for="altres">Altres</label>
+    </fieldset>
+</body>
+</html>
