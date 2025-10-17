@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Pau Febrer Castro"
+    <meta name="author" content="Pau Febrer Castro">
+    <meta name="description" content="Formulari de registre d'usuari">
     <title>Exercici 1</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="cognoms">Cognoms:</label>
+        <input type="text" id="cognoms" name="cognoms" required><br><br>
+
+        <label for="email">Correu electrònic:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="contrasenya">Contrasenya:</label>
+        <input type="password" id="contrasenya" name="contrasenya" required><br>
+
+        <label for="repetir_contrasenya">Repetir contrasenya:</label>
+        <input type="password" id="repetir_contrasenya" name="repetir_contrasenya" required><br>
+
+        <input type="submit" value="Registrar-se">
+        
+        <input type="reset" value="Netejar">
+    </form>
 </body>
 </html>
