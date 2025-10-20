@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Diversitat</legend>
+
+        <div class="controls-espacials">
+            <label for="color">El teu color preferit:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="foto">Puja una fotografia (.jpg/.png):</label>
+            <input type="file" id="foto" name="foto" accept=".jpg,.jpeg,.png,image/jpeg,image/png">
+        </div>
+
+        <br>
+
+        <div class="controls-numerics">
+            <label for="puntuacio">Puntuació com a estudiant:</label>
+            <input type="range" id="puntuacio" name="puntuacio" min="1" max="10" value="5">
+            <br>
+            <label for="perfil">
+                <input type="checkbox" id="perfil" name="perfil">
+                Crear perfil social
+            </label>
+        </div>
+    </fieldset>
+</body>
+
+</html>
